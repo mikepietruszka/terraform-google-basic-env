@@ -38,7 +38,7 @@ resource "google_compute_instance" "default" {
 
   tags = ["http-server"]
   network_interface {
-    network = "default"
+    subnetwork = "default"
     //    access_config {
     //    }
   }
