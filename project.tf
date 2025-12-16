@@ -1,13 +1,3 @@
-data "google_project" "project" {
-  project_id = "prj-g-tfseed-4200"
-  provider   = google
-}
-
-output "project_number" {
-  value = data.google_project.project.number
-}
-
-
 resource "random_integer" "random" {
   min = 1000
   max = 9999
