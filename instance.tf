@@ -2,7 +2,7 @@ resource "google_compute_instance" "default" {
   name         = "gce-${random_integer.random.result}"
   machine_type = var.machine_type
   zone         = "${var.region}-a"
-  project      = data.google_project.project.project_id
+  project      = "prj-g-tfseed-4200"
 
   boot_disk {
     initialize_params {

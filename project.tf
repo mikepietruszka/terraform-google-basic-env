@@ -1,5 +1,5 @@
 data "google_project" "project" {
-  project_id = var.tenant_project_id
+  project_id = "prj-g-tfseed-4200"
 }
 
 output "project_number" {
