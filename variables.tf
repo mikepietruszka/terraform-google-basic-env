@@ -1,4 +1,4 @@
-variable "tenant_project_id" {
+variable "project_id" {
   type        = string
   description = "The name of the GCP project"
   default     = "sada-mpietruszka-dev"

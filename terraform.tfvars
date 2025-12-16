@@ -1,6 +1,5 @@
 tenant_id             = "tnt-mike-pietruszka"
 project_id            = "prj-g-tfseed-4200"
-tenant_project_id     = "prj-g-tfseed-4200"
 tenant_project_number = "128178624758"
 region                = "us-central1"
 zone                  = "us-central1-a"
