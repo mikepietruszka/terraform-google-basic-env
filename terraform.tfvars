@@ -1,0 +1,7 @@
+tenant_id             = "tnt-mike-pietruszka"
+project_id            = "sada-mpietruszka-dev"
+tenant_project_id     = "sada-mpietruszka-dev"
+tenant_project_number = "463156815491"
+region                = "us-central1"
+zone                  = "us-central1-a"
+machine_type          = "e2-medium"
