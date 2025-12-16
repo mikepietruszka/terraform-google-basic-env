@@ -1,5 +1,5 @@
 provider "google" {
-  project = "sada-mpietruszka-dev"
+  project = "prj-g-tfseed-4200"
   region  = "us-central1"
 }
 
