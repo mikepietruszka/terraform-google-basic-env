@@ -1,16 +1,3 @@
-terraform {
-  required_providers {
-    google = {
-      source  = "hashicorp/google"
-      version = "~> 5.0"
-    }
-  }
-}
-
-provider "google" {
-  region = var.region
-}
-
 data "google_project" "project" {
   project_id = var.tenant_project_id
 }
