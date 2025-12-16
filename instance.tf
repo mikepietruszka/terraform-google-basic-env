@@ -3,6 +3,7 @@ resource "google_compute_instance" "default" {
   machine_type = var.machine_type
   zone         = "${var.region}-a"
   project      = "prj-g-tfseed-4200"
+  provider     = "google"
 
   boot_disk {
     initialize_params {
